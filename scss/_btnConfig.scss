@@ -1,7 +1,6 @@
 @import "utilities";
 @import "config";
 
-
 %btn {
   display: inline-block;
   border-radius: 5px;
@@ -9,11 +8,9 @@
   margin: 3px;
 
   &:hover {
-    transform: scale(.80);
+    transform: scale(0.8);
   }
 }
-
-
 
 .btn-primary {
   @extend %btn;
@@ -23,5 +20,4 @@
 .btn-secondary {
   @extend %btn;
   @include set-bg($secondary-color);
-}
 }
